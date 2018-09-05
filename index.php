@@ -18,6 +18,6 @@ CST 336
 HELLO WORLD
 MY NAME
 IS NATALIA
-<body/>
+</body>
     
 </html>
