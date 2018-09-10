@@ -12,7 +12,7 @@ CST 336
 <head>
     <meta charset="utf-8" />
     <title>Natalia Gill: Personal Website</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     
 </head>
 
@@ -35,7 +35,7 @@ CST 336
      <main>
          
          <figure id="me">
-             <img src="/allwork/labs/lab1/img/nat_gill.png" alt="Photo of Nat"  height="400" width="300" />
+             <img src="/allwork/nat_gill.png" alt="Photo of Nat"  height="400" width="300" />
         </figure>
 
             <div id="welcomeText">
@@ -54,7 +54,7 @@ CST 336
               <strong>  California State University, Monterey Bay</strong>
                 
                 <br />
-            <img src="/allwork/labs/lab1/img/csumbLogo.png" />
+            <img src="/allwork/csumbLogo.png>
             </footer>
             
       
