@@ -35,7 +35,7 @@ CST 336
      <main>
          
          <figure id="me">
-             <img src="/allwork/nat_gill.png" alt="Photo of Nat"  height="400" width="300" />
+             <img src="nat_gill.png" alt="Photo of Nat"  height="400" width="300" />
         </figure>
 
             <div id="welcomeText">
