@@ -54,7 +54,7 @@ CST 336
               <strong>  California State University, Monterey Bay</strong>
                 
                 <br />
-            <img src="/allwork/csumbLogo.png>
+            <img src="csumbLogo.png>
             </footer>
             
       
