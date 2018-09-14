@@ -1,0 +1,81 @@
+/*1*/
+body {
+    background-color: #84DCDC;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+   
+}
+
+/*2*/
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+/*3*/
+nav a:hover{
+    border-bottom:2px #075559 solid;
+    font-size: 2em;
+    transition: .9s;
+    
+}
+
+/*4*/
+#pic{
+     float: right;
+ 
+}
+
+/*5*/
+#mainT{
+    font-size: 1.4em;
+    text-align: left;
+}
+/*6 CSS NEW*/
+/*footer class referenced from W3*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #65A8A8;
+    color: white;
+    text-align: center;
+}
+/*7*/
+table{
+    
+    padding-right: 10px;
+}
+/*8*/
+td{
+    padding-right: 30px;
+    font-size: 2.3em;
+}
+/*9*/
+td strong{
+    color:#5EC9C7;
+}
+/*10*/
+
+#table-header{
+    background-color: #075559;
+    
+}
+/*11*/
+#table-row{
+    background-color: #075559;
+}
+
+
+
+/*12 NE1 2/2 this
+rule uses the z-index to
+esnure no overlapping*/
+div{
+ 
+z-index: 1;    
+}
