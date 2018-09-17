@@ -7,3 +7,7 @@
 [14-Sep-2018 19:46:38 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting '(' in /home/ubuntu/workspace/practice/php/prac.php on line 21
 [14-Sep-2018 19:46:38 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting '(' in /home/ubuntu/workspace/practice/php/prac.php on line 21
 [14-Sep-2018 19:46:39 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting '(' in /home/ubuntu/workspace/practice/php/prac.php on line 21
+[17-Sep-2018 19:43:05 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
+[17-Sep-2018 19:43:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
+[17-Sep-2018 19:43:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
+[17-Sep-2018 19:43:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
