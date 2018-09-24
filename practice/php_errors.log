@@ -11,3 +11,10 @@
 [17-Sep-2018 19:43:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
 [17-Sep-2018 19:43:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
 [17-Sep-2018 19:43:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/practice/mon2/rps.php on line 89
+[24-Sep-2018 19:16:54 UTC] PHP Warning:  imagepng(): Unable to open 'inc/charts/1537816614.6986.png' for writing: No such file or directory in /home/ubuntu/workspace/practice/prac3/inc/charts.php on line 71
+[24-Sep-2018 19:16:54 UTC] PHP Stack trace:
+[24-Sep-2018 19:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/prac3/reviews.php:0
+[24-Sep-2018 19:16:54 UTC] PHP   2. movieReviews() /home/ubuntu/workspace/practice/prac3/reviews.php:60
+[24-Sep-2018 19:16:54 UTC] PHP   3. displayRatings() /home/ubuntu/workspace/practice/prac3/reviews.php:25
+[24-Sep-2018 19:16:54 UTC] PHP   4. bar_graph() /home/ubuntu/workspace/practice/prac3/inc/charts.php:30
+[24-Sep-2018 19:16:54 UTC] PHP   5. imagepng() /home/ubuntu/workspace/practice/prac3/inc/charts.php:71
