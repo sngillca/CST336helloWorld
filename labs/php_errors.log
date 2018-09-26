@@ -29,3 +29,443 @@
 [24-Sep-2018 04:32:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/labs/lab3/index.php on line 10
 [24-Sep-2018 17:43:01 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/labs/lab3/index.php on line 24
 [24-Sep-2018 19:01:34 UTC] PHP Parse error:  syntax error, unexpected '$face' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 45
+[25-Sep-2018 02:17:05 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 33
+[25-Sep-2018 02:17:12 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 33
+[25-Sep-2018 02:17:14 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 33
+[25-Sep-2018 02:17:22 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 33
+[25-Sep-2018 02:22:19 UTC] PHP Parse error:  syntax error, unexpected '$face' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 38
+[25-Sep-2018 02:27:50 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/labs/lab3/index.php on line 34
+[25-Sep-2018 06:08:25 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/lab3/index.php on line 80
+[25-Sep-2018 06:08:26 UTC] PHP Stack trace:
+[25-Sep-2018 06:08:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 06:08:26 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:97
+[25-Sep-2018 06:13:53 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/labs/lab3/index.php on line 59
+[25-Sep-2018 06:36:14 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/labs/lab3/index.php on line 149
+[25-Sep-2018 06:36:14 UTC] PHP Stack trace:
+[25-Sep-2018 06:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:13:04 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/labs/lab3/index.php on line 149
+[25-Sep-2018 17:13:04 UTC] PHP Stack trace:
+[25-Sep-2018 17:13:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:20:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 96
+[25-Sep-2018 17:20:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 94
+[25-Sep-2018 17:20:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 94
+[25-Sep-2018 17:25:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 96
+[25-Sep-2018 17:26:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 101
+[25-Sep-2018 17:42:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 102
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:57:39 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:57:39 UTC] PHP Stack trace:
+[25-Sep-2018 17:57:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:57:39 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:57:39 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:23 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:23 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:23 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:24 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:24 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:24 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:121
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:127
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:135
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 17:58:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/lab3/index.php on line 84
+[25-Sep-2018 17:58:44 UTC] PHP Stack trace:
+[25-Sep-2018 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 17:58:44 UTC] PHP   2. getHand() /home/ubuntu/workspace/labs/lab3/index.php:142
+[25-Sep-2018 17:58:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/lab3/index.php:84
+[25-Sep-2018 18:02:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/index.php on line 107
+[25-Sep-2018 18:18:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:18:47 UTC] PHP Stack trace:
+[25-Sep-2018 18:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:18:47 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:18:47 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:18:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:18:47 UTC] PHP Stack trace:
+[25-Sep-2018 18:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:18:47 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:18:47 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:18:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:18:47 UTC] PHP Stack trace:
+[25-Sep-2018 18:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:18:47 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:18:47 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:18:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:18:47 UTC] PHP Stack trace:
+[25-Sep-2018 18:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:18:47 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:18:47 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:00 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:00 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:00 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:00 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:00 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:00 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:00 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:00 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:09 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:09 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:09 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:09 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:09 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:09 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:09 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:09 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:09 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 18:19:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 17
+[25-Sep-2018 18:19:09 UTC] PHP Stack trace:
+[25-Sep-2018 18:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 18:19:09 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:25
+[25-Sep-2018 18:19:09 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:17
+[25-Sep-2018 21:33:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 16
+[25-Sep-2018 21:33:44 UTC] PHP Stack trace:
+[25-Sep-2018 21:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 21:33:44 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:24
+[25-Sep-2018 21:33:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:16
+[25-Sep-2018 21:33:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 16
+[25-Sep-2018 21:33:44 UTC] PHP Stack trace:
+[25-Sep-2018 21:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 21:33:44 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:24
+[25-Sep-2018 21:33:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:16
+[25-Sep-2018 21:33:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 16
+[25-Sep-2018 21:33:44 UTC] PHP Stack trace:
+[25-Sep-2018 21:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 21:33:44 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:24
+[25-Sep-2018 21:33:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:16
+[25-Sep-2018 21:33:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/labTest/index.php on line 16
+[25-Sep-2018 21:33:44 UTC] PHP Stack trace:
+[25-Sep-2018 21:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/labTest/index.php:0
+[25-Sep-2018 21:33:44 UTC] PHP   2. removeDups() /home/ubuntu/workspace/labs/labTest/index.php:24
+[25-Sep-2018 21:33:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/labs/labTest/index.php:16
+[25-Sep-2018 22:13:16 UTC] PHP Fatal error:  Cannot redeclare checkPoints() (previously declared in /home/ubuntu/workspace/labs/lab3/index.php:54) in /home/ubuntu/workspace/labs/lab3/inc/functions.php on line 8
+[25-Sep-2018 22:13:16 UTC] PHP Stack trace:
+[25-Sep-2018 22:13:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[25-Sep-2018 22:28:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/labs/lab3/inc/functions.php on line 53
+[25-Sep-2018 22:28:31 UTC] PHP Stack trace:
+[25-Sep-2018 22:28:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[26-Sep-2018 02:04:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/labs/labTest/index.php on line 24
+[26-Sep-2018 06:49:38 UTC] PHP Fatal error:  Cannot redeclare ranChar3() (previously declared in /home/ubuntu/workspace/labs/lab3/inc/functions.php:80) in /home/ubuntu/workspace/labs/lab3/inc/functions.php on line 93
+[26-Sep-2018 06:49:38 UTC] PHP Stack trace:
+[26-Sep-2018 06:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[26-Sep-2018 06:50:12 UTC] PHP Fatal error:  Cannot redeclare ranChar3() (previously declared in /home/ubuntu/workspace/labs/lab3/inc/functions.php:80) in /home/ubuntu/workspace/labs/lab3/inc/functions.php on line 93
+[26-Sep-2018 06:50:12 UTC] PHP Stack trace:
+[26-Sep-2018 06:50:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0
+[26-Sep-2018 07:59:26 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/labs/lab3/inc/functions.php on line 101
+[26-Sep-2018 07:59:26 UTC] PHP Stack trace:
+[26-Sep-2018 07:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab3/index.php:0

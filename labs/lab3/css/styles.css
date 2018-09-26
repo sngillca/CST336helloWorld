@@ -1,14 +1,38 @@
-
-
-div {
-    background-color: white;
-    width: 600px;
-    height: 600px;
-    border: 5px solid yellow;
-    border-radius: 50px 10px;
-    padding: 25px;
-    margin-left: 350px;
-    margin-right: 500px;
-    margin-top: 50px;
-    margin-bottom: 250px;
+         body{
+             background-image: url(/labs/lab3/img/gal.png) ;
+             font-style: oblique;
+             font-size: 22px;
+             color:#C727CD;
+             font-weight: bold;
+             
+         }
+        
+        p{
+             font-family:"Arial Black", Gadget, sans-serif;
+             font-style: normal;
+             font-size: 18px;
+             color:#C727CD;
+              font-weight: bold;
+              display: inline;
+         }
+    
+     #footer {
+         position: auto;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: blue;
+         color: white;
+         text-align: center;
+    
+}
+    
+    #main{
+        background-color: white;
+        width: 1000px;
+        height: 2000px;
+        border-radius: 20px;
+        padding: 25px;
+        margin: auto;
+        box-shadow: 0 0 0 4px rgba(253, 249, 131, 0.81); 
 }
