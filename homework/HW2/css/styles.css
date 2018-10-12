@@ -65,3 +65,17 @@
 #fash {
     text-align: center;
 }
+
+@media screen and (min-width: 400px) {
+        #main{
+        background-color: white;
+        width: 500px;
+        height: 700px;
+        border-radius: 100px 1px;
+        padding: 25px;
+        margin: auto;
+        
+        border: 3px solid rgba(18, 51, 141, .3);
+        text-align: right;
+}
+}

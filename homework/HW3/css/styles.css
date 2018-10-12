@@ -1,0 +1,81 @@
+         body{
+            /*background-image: url(/labs/lab3/img/gal.png) ;*/
+            background-color: #C9B2DC;
+             font-size: 28px;
+             color:#9C9C9D;
+             font-weight: bold;
+             
+             
+         }
+         
+         #mod{
+              
+             font-size: 22px;
+             color:#0A1E3B;
+             font-weight: bold;
+             
+             
+         }
+        
+        p{
+            font-style: normal;
+             font-size: 20px;
+             color: #3682C4;
+              font-weight: bold;
+              text-align: right;
+         }
+    
+     #footer {
+         position: auto;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: blue;
+         color: white;
+         text-align: center;
+    
+}
+    
+    #main{
+        background-color: white;
+        width: 500px;
+        height: 700px;
+        border-radius: 25px 25px;
+        padding: 25px;
+        margin: auto;
+        
+        border: 3px solid rgba(18, 51, 141, .3);
+        text-align: left;
+}
+.button {
+    background-color:  #71E3C1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     font-style: oblique;
+     font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#fash {
+    text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+        #main{
+        background-color: white;
+        width: 500px;
+        height: 700px;
+        border-radius: 100px 1px;
+        padding: 25px;
+        margin: auto;
+        
+        border: 3px solid rgba(18, 51, 141, .3);
+        text-align: right;
+}
+}

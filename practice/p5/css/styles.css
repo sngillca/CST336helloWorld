@@ -1,0 +1,17 @@
+body{
+    font-style: oblique;
+    font-size: 22px;
+    color:#C727CD;
+    font-weight: bold;
+             
+}
+
+#main{
+        background-color: white;
+        width: 1000px;
+        height: 2000px;
+        border-radius: 20px;
+        padding: 25px;
+        margin: auto;
+        box-shadow: 0 0 0 4px rgba(253, 249, 131, 0.81); 
+}
