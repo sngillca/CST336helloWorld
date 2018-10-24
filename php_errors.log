@@ -33,3 +33,10 @@
 [20-Sep-2018 23:46:46 UTC] PHP Fatal error:  Cannot redeclare displayWin() (previously declared in /home/ubuntu/workspace/testing/index.php:19) in /home/ubuntu/workspace/testing/inc/functions.php on line 29
 [20-Sep-2018 23:46:46 UTC] PHP Stack trace:
 [20-Sep-2018 23:46:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/testing/index.php:0
+[24-Oct-2018 00:13:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/midtermPractic/index.php on line 8
+[24-Oct-2018 00:13:19 UTC] PHP Stack trace:
+[24-Oct-2018 00:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/midtermPractic/index.php:0
+[24-Oct-2018 00:13:19 UTC] PHP   2. displayCountyName() /home/ubuntu/workspace/midtermPractic/index.php:21
+[24-Oct-2018 17:24:19 UTC] PHP Fatal error:  Call to undefined function rsortPop() in /home/ubuntu/workspace/midtermPractic/index.php on line 44
+[24-Oct-2018 17:24:19 UTC] PHP Stack trace:
+[24-Oct-2018 17:24:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/midtermPractic/index.php:0

@@ -1,5 +1,5 @@
-
 <?php
+
   include 'database.php';
   
    function createMeme($line1, $line2, $memeType) {
@@ -13,18 +13,29 @@
      }elseif ($memeType = 'coding'){
         $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Typing_computer_screen_reflection.jpg' ;
      }
-     
+      
      
      
      //construct the proper SQL INSERT statement
      
      
      $dbConn = getDatabaseConnection(); 
-     $sql = "INSERT INTO `all_memes` (`id`, `line1`, `line2`,'meme-type', 'meme-URL') VALUES (NULL, '$line1', '$line2', $meme-type, $meme-URL );"; 
-    // echo "SQL: $sql <br/>";
+     //INSERT INTO `all_memes` (`id`, `line1`, `line2`, `meme_type`, `meme_url`) VALUES (NULL, 'hello', 'xyz', '', '')
+     $sql = "INSERT INTO `all_memes` (`id`, `line1`, `line2`,`meme_type`, `meme_url`) VALUES (NULL, '$line1', '$line2', '$memeType', '$memeURL' );"; 
+    echo "SQL: $sql <br/>";
      $statement = $dbConn->prepare($sql);
-     $statement->execute(); 
+     $result = $statement->execute(); 
+     $last_id = $dbConn->lastInsertId();
+     echo 'last id: '.$last_id;
      
+     //fetch new
+    $sql = "SELECT * from all_memes WHERE id = $last_id"; 
+    $statement = $dbConn->prepare($sql); 
+    $statement->execute(); 
+    $records = $statement->fetchAll(); 
+    $newMeme = $records[0];
+    
+    return $newMeme;
    }//createMeme
 
   function displayMemes() {
@@ -49,7 +60,7 @@
   
     
   if(isset($_POST['line1']) && isset($_POST['line2']) ){
-    createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']);
+    $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']);
   }
   
   
@@ -155,11 +166,11 @@
 
     <!--The image needs to be rendered for each new meme so set the div's background-image property inline -->
 
-    <div class="meme-div" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/ff/Deep_in_thought.jpg);">
+    <div class="meme-div" style="background-image:url(<?= $memeIbj['meme_url']; ?>)">
 
-      <h2 class="line1"> <?php echo $_POST['line1']; ?></h2>
+      <h2 class="line1"> <?php echo $memeObj['line1'] ?></h2>
 
-      <h2 class="line2"><?php echo $_POST['line2']; ?></h2>
+      <h2 class="line2"><?php echo $memeObj['line2']; ?></h2>
 
 
     </div>

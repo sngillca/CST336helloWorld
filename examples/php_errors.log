@@ -91,3 +91,71 @@ Stack trace:
 #1 /home/ubuntu/workspace/examples/meme_lab/meme.php(52): createMeme('hello', 'xyz', 'college-grad')
 #2 {main}
   thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 26
+[12-Oct-2018 19:03:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(26): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(52): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 26
+[12-Oct-2018 19:06:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(51): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(51): createMeme('hello', 'xyz', 'college-grad', NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:17:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(51): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:25:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(51): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:29:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(53): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:52:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(61): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:53:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', -type, -URL )' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(61): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:56:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', , https://upload.wikimedi' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(61): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 19:56:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''meme-type', 'meme-URL') VALUES (NULL, 'hello', 'xyz', college-grad, https://upl' at line 1' in /home/ubuntu/workspace/examples/meme_lab/meme.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/examples/meme_lab/meme.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/examples/meme_lab/meme.php(61): createMeme('hello', 'xyz', 'college-grad')
+#2 {main}
+  thrown in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 25
+[12-Oct-2018 20:09:12 UTC] PHP Fatal error:  Call to a member function lastInsertId() on a non-object in /home/ubuntu/workspace/examples/meme_lab/meme.php on line 28
+[12-Oct-2018 20:09:12 UTC] PHP Stack trace:
+[12-Oct-2018 20:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/meme_lab/meme.php:0
+[12-Oct-2018 20:09:12 UTC] PHP   2. createMeme() /home/ubuntu/workspace/examples/meme_lab/meme.php:63
+[17-Oct-2018 20:32:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/examples/meme_lab/welcome.php on line 4
+[17-Oct-2018 20:32:54 UTC] PHP Stack trace:
+[17-Oct-2018 20:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/meme_lab/welcome.php:0
+[17-Oct-2018 20:32:54 UTC] PHP   2. frontPage() /home/ubuntu/workspace/examples/meme_lab/welcome.php:9
