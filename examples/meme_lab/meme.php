@@ -6,11 +6,11 @@
      //mao eache meme type to the appropirate url
      if($memeType =='college-grad'){
         $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/LinusPaulingGraduation1922.jpg';
-     } elseif ($memeType = 'thinking-ape'){
+     } elseif ($memeType == 'thinking-ape'){
         $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Deep_in_thought.jpg';
-     }  elseif ($memeType = 'old-class'){
+     }  elseif ($memeType == 'old-class'){
         $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/4/47/StateLibQld_1_100348.jpg';
-     }elseif ($memeType = 'coding'){
+     }elseif ($memeType == 'coding'){
         $memeURL = 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Typing_computer_screen_reflection.jpg' ;
      }
       
@@ -22,11 +22,16 @@
      $dbConn = getDatabaseConnection(); 
      //INSERT INTO `all_memes` (`id`, `line1`, `line2`, `meme_type`, `meme_url`) VALUES (NULL, 'hello', 'xyz', '', '')
      $sql = "INSERT INTO `all_memes` (`id`, `line1`, `line2`,`meme_type`, `meme_url`) VALUES (NULL, '$line1', '$line2', '$memeType', '$memeURL' );"; 
-    echo "SQL: $sql <br/>";
+    //echo "SQL: $sql <br/>";
      $statement = $dbConn->prepare($sql);
      $result = $statement->execute(); 
+     
+     if(!$result){
+       return null;
+     }
+     
      $last_id = $dbConn->lastInsertId();
-     echo 'last id: '.$last_id;
+     //echo 'last id: '.$last_id;
      
      //fetch new
     $sql = "SELECT * from all_memes WHERE id = $last_id"; 
@@ -39,9 +44,23 @@
    }//createMeme
 
   function displayMemes() {
-
-    $dbConn = getDatabaseConnection(); 
-    $sql = "SELECT * from all_memes"; 
+    $dbConn = getDatabaseConnection();
+    $sql = "SELECT * from all_memes WHERE 1";
+      if(isset($_POST['search']) && !empty($_POST['search'])) {
+    //query db for any records that match search
+  
+    $sql.= " AND (line1 LIKE '%{$_POST['search']}%' OR line2 LIKE '%{$_POST['search']}%')";
+  }  
+  if(isset($_POST['meme-type'])  && !empty($_POST['meme-type'])){
+    $sql .=" AND meme_type = '{$_POST['meme-type']}'";
+  }
+  
+  else {
+    $sql = "SELECT * from all_memes";
+  }
+  
+ 
+    
     $statement = $dbConn->prepare($sql); 
     $statement->execute(); 
     $records = $statement->fetchAll(); 
@@ -63,7 +82,10 @@
     $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']);
   }
   
+
   
+  
+  /*
   if(isset($_POST['line1']) && isset($_POST['line2']) ){
     $line1 = $_POST['line1'];
     }else {
@@ -76,7 +98,7 @@
   }else {
     $line2= "bacon" ;
 }
-       
+     */  
     
     
 
@@ -159,14 +181,14 @@
   <body>
     
     <?php 
-      if ( isset($_POST['line1']) && isset($_POST['line2'])) { ?>
+      if ( $memeObj != null) { ?>
         
     
     <h1>Your Meme</h1>
 
     <!--The image needs to be rendered for each new meme so set the div's background-image property inline -->
 
-    <div class="meme-div" style="background-image:url(<?= $memeIbj['meme_url']; ?>)">
+    <div class="meme-div" style="background-image:url(<?= $memeObj['meme_url']; ?>)">
 
       <h2 class="line1"> <?php echo $memeObj['line1'] ?></h2>
 
@@ -176,7 +198,24 @@
     </div>
       <?php }  ?>
     
-      <h1> all memes</h1>
+      <h1> All memes</h1>
+      
+      <form method="post" action="meme.php">
+
+        Search: <input type="text" name="search"></input> <br/>
+         Meme Type:
+        <select name="meme-type">
+          <option value="college-grad">Happy College Grad</option>
+          <option value="thinking-ape">Deep Thought Monkey</option>
+          <option value="coding">Learning to Code</option>
+          <option value="old-class">Old Classroom</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit"/>
+      </form>
+      
+      
+      
        <div class="memes-container">
           <?php displayMemes(); ?>
           <div style ="clear:both"></div>
