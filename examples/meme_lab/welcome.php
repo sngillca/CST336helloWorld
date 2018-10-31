@@ -4,13 +4,13 @@
   function frontPage(){
     $dbConn = getDatabaseConnection(); 
     $sql = "SELECT * FROM `all_memes` ORDER BY RAND() LIMIT 1;"; 
-    echo "SQL: $sql <br/>";
+   // echo "SQL: $sql <br/>";
     
     $statement = $dbConn->prepare($sql);
     $result = $statement->execute(); 
     $records = $statement->fetchAll(); 
-    echo "*******<br>";
-    print_r($records);
+    //echo "*******<br>";
+    //print_r($records);
     
     
     foreach ($records as $record) {
@@ -21,9 +21,9 @@
       echo '</div>';
       
     }//foreach
-  }
+  }//frontPage()
   
-  frontPage();
+  
 ?>
   
 <!DOCTYPE html>
@@ -33,6 +33,68 @@
   <head>
 
     <title>Welcome</title>
+    <style>
+            .meme-div{
+
+      width: 450px;
+
+      height: 450px;
+
+      background-size: 100%;
+
+      text-align: center;
+
+      position: relative;
+
+      }
+      
+      .memes-container .meme-div{
+        width: 150px;
+        height: 150px;
+        margin: 10px 20px;
+        float: left;
+        
+        
+      }
+      .memes-containter .meme-div h2{
+        font-size: 18px;
+        
+      }
+
+      h2 {
+
+        position: absolute;
+
+        left: 0;
+
+        right: 0;
+
+        margin: 15px 0;
+
+        padding: 0 5px;
+
+        font-family: impact;
+
+        color: white;
+
+        text-shadow: 1px 1px black;
+        
+        
+
+      }
+
+      .line1 {
+
+         top: 0;
+
+       }
+
+      .line2 {
+
+         bottom: 0;
+
+       }
+    </style>
 
   </head>
 
@@ -40,11 +102,9 @@
 
     <h1>Meme Generator</h1>
 
-    <img height="100px" width="150px" src="https://www.publicdomainpictures.net/pictures/90000/velka/alpaca-chewing.jpg" alt="a-chewing-alpaca">
-   
-    
-    
-    <h2>Welcome to my Meme Generator!</h2>
+  <?php frontPage(); ?>
+    <br><br>
+    <h1>Welcome to my Meme Generator!</h1>
   
   
   
