@@ -9,6 +9,7 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
   $memeObj = createMeme($_POST['line1'], $_POST['line2'], $_POST['meme-type']); 
 }
 
+
 ?>
 
 
@@ -33,6 +34,7 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
           <option value="thinking-ape">Deep Thought Monkey</option>
           <option value="coding">Learning to Code</option>
           <option value="old-class">Old Classroom</option>
+           <input type="radio" name="delete" value="del"> Delete Meme<br> 
         </select>
 
         <input type="submit"></input>
@@ -40,6 +42,7 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
     
     
     <?php
+  
       if ($memeObj) {
         displayMemes(array($memeObj)); 
       }

@@ -131,7 +131,43 @@ function createMeme($line1, $line2, $memeType) {
 
 
 }
+function editMeme($id, $line1, $line2, $memeType) {
+  global $dbConn; 
+  
+  
+  $categoryID = getCategoryID($memeType); 
+  
+  
+ 
 
+  $sql = "UPDATE `all_memes` 
+            SET 
+              line1 = :line1, 
+              line2 = :line2, 
+              category_id = :category_id
+            WHERE 
+              id = :id"; 
 
+  
+  $statement = $dbConn->prepare($sql); 
+  $statement->execute(array(
+      ':line1' => $line1, 
+      ':line2' => $line2, 
+      ':category_id' => $categoryID, 
+      ':id' => $id
+      ));
+    
+  
+}
+function deleteMemeFromDB($memeID) {
+  global $dbConn; 
+  
+  $sql = "DELETE  
+    FROM all_memes  
+    WHERE all_memes.id = $memeID"; 
+ $statement = $dbConn->prepare($sql); 
+  
+  $statement->execute(); 
+}
 
 ?>
