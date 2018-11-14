@@ -9,8 +9,8 @@ var words = [{word:"snake", hint:"It's a reptile"},
 var alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
 console.log(words[0]);
-var randomInt = Math.floor(Math.random()*words.length);
-selectedWord = words[randomInt];
+//var randomInt = Math.floor(Math.random()*words.length);
+//selectedWord = words[randomInt].word;
 
 
 function initBoard(){
@@ -22,7 +22,7 @@ function initBoard(){
 
 
 for (var letter in selectedWord) {
-    document.getElementById("word").innerHTML += letter += " "
+    document.getElementById("word").innerHTML += letter += " ";
 }//for
 
 
@@ -31,10 +31,11 @@ for (var letter in selectedWord) {
 window.onload = startGame();
 
 function startGame(){
+    createLetters();
     pickWord();
     initBoard();
     updateBoard();
-    createLetters();
+   
 }
        
 
@@ -42,7 +43,9 @@ function startGame(){
 function pickWord() {
     var randomInt = Math.floor(Math.random()*words.length);
     selectedWord = words[randomInt].word.toUpperCase();
+    //console.log(selectedWord);
     selectedHint = words[randomInt].hint;
+    console.log("hhe"+selectedWord);
 }//function pickWord
 
 function updateBoard() {
@@ -58,7 +61,9 @@ function updateBoard() {
 }//function updateBoard
 
 function createLetters() {
+    console.log("lettersss");
     for (var letter of alphabet) {
+        console.log(letter);
         $("#letters").append("<button class='btn btn-success letter' id='" + letter +"'>" + letter + "</button>");
     }//for
 }//createLetters
@@ -72,9 +77,9 @@ function checkLetter(letter) {
             positions.push(i);
         }//if
     }//for
-    
+    console.log(positions);
     if (positions.length > 0) {
-        updateBoard(positions, letter);
+        updateWord(positions, letter);
         
         if(!board.includes('_')){
             endGame(true);
@@ -133,6 +138,3 @@ function disableButton(btn) {
 
 
 
-startGame();
-
-            
