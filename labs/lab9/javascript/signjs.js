@@ -1,1 +1,1 @@
-document.body.innerHTML = "Hekk workd";
+document.body.innerHTML = "Sign Up Form";
