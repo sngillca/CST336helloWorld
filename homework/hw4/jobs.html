@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homework 4</title>
+        <script type="text/javascript" src="/homework/hw4/jquery-3.3.1.min.js" ></script>
+        <style>
+        body{
+            background-color:#163F3B;
+            color: white;
+            font-size: 20px;
+        }
+            .cent{
+                text-align: center;
+            }
+            
+            .bord {
+                background-color: #205B55;
+                width: 700px;
+                height: 900px;
+                border-radius: 25px 25px;
+                padding: 25px;
+                margin: auto;
+        
+                border: 3px solid rgba(18, 51, 141, .3);
+                
+          }
+          
+    
+          
+          .button {
+            background-color:  #126C63;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+             font-style: oblique;
+             font-weight: bold;
+            margin: 4px 2px;
+            cursor: pointer;
+        }   
+        
+        h1{
+            font-family:Arial ;
+            background-color:  #126C63;
+            border: none;
+            color: white;
+            font-style: oblique;
+             font-weight: bold;
+        }
+        p{
+            font-family: Arial;
+               font-size: 20px;
+             font-weight: bold;
+             color:white;
+        }
+        .pstyle{
+            color: #BAEFEF;
+             text-decoration: underline overline;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="bord">
+        <div class="cent">
+        <h1>Job Prospect Informer</h1>
+       <strong><p class="pstyle" id="test">Click for Success Quote of the Day</p></strong> 
+        <script>
+            $(document).ready(function(){
+                $("#test").click(function() {
+                    alert("Keep on keepn' on.");
+                });
+            });
+        </script>
+        <form>
+            <p>ENTER NAME:</p>
+            <input type="text" id="name">
+            
+        
+            <p>SELECT FIELD OF INTEREST:</p>
+            <select id="field">
+              <option value="1">Computer Science</option>
+              <option value="2">Physics</option>
+              <option value="3">Marine Biology</option>
+              <option value="4">Art</option>
+            </select>
+           
+           <p>SELECT WORK TYPE:</p>
+            <label><input type="checkbox" id="f" value="Male">Full-time</label><br>
+            <label><input type="checkbox" id="p" value="Female"> Part-time</label><br>
+            <label><input type="checkbox" id="o" value="Other">Internship</label><br>
+           
+            <p>SELECT GENDER:</p>
+            <label><input type="radio" id="gender" value="male"> Male</label><br>
+            <label><input type="radio" id="gender" value="female"> Female</label><br>
+            <label><input type="radio" id="gender" value="other"> Other</label><br>  
+          
+            <p>YEARS OF EXPERIENCE IN FIELD:</p>
+            <input type="number" id="exp" min="0" max="60">
+            <br/>
+            
+            <button class="button" type="button" onclick="jobs()">Calculate Prospects</button>
+        </form>
+        
+        <div id="result">
+            
+        </div>
+        </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="/homework/hw4/mainJS.js"></script>
+</html>
