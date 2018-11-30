@@ -32,13 +32,9 @@ async function setZipData(zip) {
         headers:{ 'Content-Type': 'application/json'}
     });
     
-    // fetch response
     const response = await zipCall.json();
     
-    // make resonse JSON data
     const data = JSON.parse(response);
-
-    // set data
     const city = document.querySelector('#city');
     const lat = document.querySelector('#lat');
     const lng = document.querySelector('#lng');
@@ -118,17 +114,11 @@ function loadStates() {
         "WI": "Wisconsin",
         "WY": "Wyoming"
     };
-    
-    // create option for each state
     const stateSelect = Array.from(selects)[0];
     Object.keys(STATES).forEach(key => {
        createOption(key, STATES[key], stateSelect);
     });
-    
-    // listen for state change
     stateSelect.addEventListener('change', setCounty);
-
-    // dispatch event change
     stateSelect.dispatchEvent(new Event('change'));
 }
 
@@ -138,16 +128,10 @@ async function setCounty(e) {
         method: 'GET',
         headers:{ 'Content-Type': 'application/json'}
     });
-    
-    // fetch response
     const response = await countyCall.json();
-    
-    // make resonse JSON data
     const data = JSON.parse(response);
-    
-    // create county options
     const countySelect = Array.from(selects)[1];
-    clearSelect(countySelect); // clear select before creating new options
+    clearSelect(countySelect); 
     
     if (data.length !== 0) {
         data.map(obj => {
@@ -171,12 +155,10 @@ function clearSelect(select) {
 
 function createOption(value, text, parent) {
     
-    // create option element
     const option = document.createElement('option');
     option.value = value;
     option.innerHTML = text;
     
-    // append option element to parent
     parent.appendChild(option);
 }
 
@@ -196,7 +178,6 @@ function validateForm() {
         return;
     }
     
-    // form was posted
     formStatus.className = 'success';
     formStatus.innerHTML = 'Account successfully created';
     

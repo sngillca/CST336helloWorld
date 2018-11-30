@@ -4,7 +4,7 @@
        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script type="text/javascript" src="public/js/index.js" type= "module"></script>
+        <script type="text/javascript" src="/labs/lab9/main/js/index.js" type= "module"></script>
     </head>
     
     <body>
