@@ -79,6 +79,16 @@ function jobs() {
         } else if ( exp >= 8 ){
             find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
         }
+    } else if (gender == "other" && field == "1" ) {
+        find = find +" The current percentage of male Computer Science majors is rougly 83%. The percentage of female is roughly 17%. Considering your "+exp+" year(s) of experience you'd be considered entry level.";
+        if(exp <= 3){
+        find = find +"Considering your "+exp+" year(s) of experience you'd be considered entry-level. Entry-level income for Computer Science is $68,165 per year, according to payscale.com.";
+            
+        } else if (exp >=4 && exp <=7) {
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered mid-level. Mid-level income for Computer Science is  $91,410  per year, according to payscale.com.";
+        } else if ( exp >= 8 ){
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
+        }
     }
    
    
@@ -96,7 +106,7 @@ function jobs() {
             find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income Physics major is $61,277 per year, according to payscale.com.";
         }
     } else if (gender == "male" && field == "2" ) {
-        find = find +" The current percentage of male Physics major is roughly around 80% according to www.aps.org. . Considering your "+exp+" year(s) of experience you'd be considered entry level.";
+        find = find +" The current percentage of male Physics major is roughly around 80% according to www.aps.org.  Considering your "+exp+" year(s) of experience you'd be considered entry level.";
         if(exp <= 3){
         find = find +"Considering your "+exp+" year(s) of experience you'd be considered entry-level. Entry-level income for Computer Science is $68,165 per year, according to payscale.com.";
             
@@ -105,7 +115,17 @@ function jobs() {
         } else if ( exp >= 8 ){
             find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
         }
-    } 
+    } else if (gender == "other" && field == "2" ) {
+        find = find +" The current percentage of female Physics major is roughly around 20% according to www.aps.org. The current percentage of male Physics major is roughly around 80% according to www.aps.org. The percentage of female is roughly 17%. Considering your "+exp+" year(s) of experience you'd be considered entry level.";
+        if(exp <= 3){
+        find = find +"Considering your "+exp+" year(s) of experience you'd be considered entry-level. Entry-level income for Computer Science is $68,165 per year, according to payscale.com.";
+            
+        } else if (exp >=4 && exp <=7) {
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered mid-level. Mid-level income for Computer Science is  $91,410  per year, according to payscale.com.";
+        } else if ( exp >= 8 ){
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
+        }
+    }
     
     
    
