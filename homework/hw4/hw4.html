@@ -17,7 +17,7 @@
             .bord {
                 background-color: #205B55;
                 width: 700px;
-                height: 900px;
+                height: 2000px;
                 border-radius: 25px 25px;
                 padding: 25px;
                 margin: auto;
@@ -62,6 +62,9 @@
             color: #BAEFEF;
              text-decoration: underline overline;
         }
+        .name {
+            font-size: 30px;
+        }
         </style>
     </head>
     <body>
@@ -95,9 +98,9 @@
             <label><input type="checkbox" id="o" value="Other">Internship</label><br>
            
             <p>SELECT GENDER:</p>
-            <label><input type="radio" id="gender" value="male"> Male</label><br>
-            <label><input type="radio" id="gender" value="female"> Female</label><br>
-            <label><input type="radio" id="gender" value="other"> Other</label><br>  
+            <label><input type="radio" name="gender" value="male"> Male</label><br>
+            <label><input type="radio" name="gender" value="female"> Female</label><br>
+            <label><input type="radio" name="gender" value="other"> Other</label><br>  
           
             <p>YEARS OF EXPERIENCE IN FIELD:</p>
             <input type="number" id="exp" min="0" max="60">
@@ -106,7 +109,7 @@
             <button class="button" type="button" onclick="jobs()">Calculate Prospects</button>
         </form>
         
-        <div id="result">
+        <div class="name"  id="result">
             
         </div>
         </div>

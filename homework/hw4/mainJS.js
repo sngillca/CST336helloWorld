@@ -39,24 +39,48 @@ function jobs() {
     
     
     
+   
+    
     var radios = document.getElementsByName("gender");
-
+    var gender;
     for (var i = 0, length = radios.length; i < length; i++)
     {
-        if (radios[i].checked)
+        if (radios[i].checked == true)
         {
-            alert(radios[i].value);
+            gender = radios[i].value;
+            //alert(gender);
             break;
             
         }//if
         
     }//for
     
+    var exp = document.querySelector("#exp").value;
     
     
+    if(gender == "female" && field == "1"){
+        find = find +" The current percentage of female Computer Science majors is rougly 17%. ";
         
-    
-    
+        if(exp <= 3){
+        find = find +"Considering your "+exp+" year(s) of experience you'd be considered entry-level. Entry-level income for Computer Science is $68,165 per year, according to payscale.com.";
+            
+        } else if (exp >=4 && exp <=7) {
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered mid-level. Mid-level income for Computer Science is  $91,410  per year, according to payscale.com.";
+        } else if ( exp >= 8 ){
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
+        }
+    } else if (gender == "male" && field == "1" ) {
+        find = find +" The current percentage of male Computer Science majors is rougly 83%. Considering your "+exp+" year(s) of experience you'd be considered entry level.";
+        if(exp <= 3){
+        find = find +"Considering your "+exp+" year(s) of experience you'd be considered entry-level. Entry-level income for Computer Science is $68,165 per year, according to payscale.com.";
+            
+        } else if (exp >=4 && exp <=7) {
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered mid-level. Mid-level income for Computer Science is  $91,410  per year, according to payscale.com.";
+        } else if ( exp >= 8 ){
+            find = find +"Considering your "+exp+" year(s) of experience you'd be considered experienced level. Experienced level income for Computer Science is  $119,958 per year, according to payscale.com.";
+        }
+    }
     
     document.querySelector("#result").innerHTML = find;
+    
 }
