@@ -10,8 +10,10 @@
         <h1>The Marauder's Map</h1>
         <h3>Search for a Witch or Wizard</h3>
         <form>
-            Name:
+            Search by first name:
             <input type="text" id="name"/>
+            Search by last name:
+            <input type="text" id="lastName"/>
             Patronus:
             <input type="text" id="patronus"/>
             House:
