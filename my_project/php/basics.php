@@ -169,11 +169,60 @@
   </div>
 </div>
     
+</div>
+</div>
+<div class="row">
+      <div class="col-sm-6">
+        
+       
+        <div class="definebg">
+        <!--
+        <p class="explain">In PHP to declare a variable you would use the dollar sign character, followed by <br>what you would like to store in your variable.</p>
+        <p class="explain">Example: let's store the word HELLO in a variable. In PHP this is considered a string<br> so we would put quotes around it.<br>Here's what it would look like: <br>$word = "HELLO";</p>
+        -->
+        <h4>Create a variable called intro with the sentence Hello World! stored in it:</h4>
+        <form method=post>
+            <h4>Enter code:</h4><input type="text" name="code2">
+            <input type="submit" value="RUN">
+        </form>    
+        <?php 
+          $answer = "$"."intro = 'Hello World!';";
+          $userAnswer = $_POST['code2'];
+      
+        if(isset($userAnswer) && !(empty($userAnswer))) {
+          isInputCorrect($userAnswer,$answer);
+        } else {
+          echo "<h3 class='noinput'>Please input code and run.</h3>";
+        }
+  
+      ?>
+  
       </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="container">
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Show answer</button>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Answer</h4>
+                </div>
+                <div class="modal-body">
+                  <p><?php echo "<h1>".$_POST['code2']."</h1>" ?></p>
+                </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     
-   </div>
-    
-
+</div>
+</div>
+</div>
     
   </body>
 </html>
