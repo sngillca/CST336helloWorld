@@ -146,9 +146,9 @@
       </div>
       <div class="col-sm-6">
             <div class="container">
-  <h2>Show Answer</h2>
+  
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click for answer</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Show answer</button>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -159,7 +159,7 @@
           <h4 class="modal-title">Answer</h4>
         </div>
         <div class="modal-body">
-          <p>The answer is.</p>
+          <p>$word = 'PIZZA';</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
